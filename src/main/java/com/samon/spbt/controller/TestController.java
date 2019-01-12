@@ -13,5 +13,10 @@ public class TestController {
         return "hi,mac alibaba";
     }
 
+    @RequestMapping("/git")
+    public String github(){
+        return "github & gitee";
+    }
+
 
 }
